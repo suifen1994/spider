@@ -1,14 +1,14 @@
-package com.index.index;
+package com.example.spider;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController(value = "indexIndexController")
-@RequestMapping(value = "/index/index")
-public class IndexController {
+@RestController
+@RequestMapping(value = "/main")
+public class MainController {
 
     @RequestMapping("/index")
     public String index(String name) {
-        return "index，hello "+name;
+        return "main，hello "+name;
     }
 }
