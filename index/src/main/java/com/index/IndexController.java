@@ -1,4 +1,4 @@
-package com.index.index;
+package com.index;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
